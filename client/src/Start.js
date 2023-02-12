@@ -38,7 +38,7 @@ function Start ({ handleStart, handleSort, sortBy  }) {
             </select>
             <br/>
             <br/>
-            <Button onClick={startQuiz} css={btnCSS}>Begin</Button>
+            <Button onClick={startQuiz} css={btnCSS} style={{ "margin": "1em" }}>Begin</Button>
 
         </div>
 

@@ -46,8 +46,8 @@ function Login({ onLogin }) {
       <h3>Login or signup to save your scores</h3>
     </Row>
       <Row >
-        <Col>
-          <Form onSubmit={handleSubmit}>
+        <Col style={{ "display": "flex" }} > 
+          <Form onSubmit={handleSubmit} >
             <h2>Login</h2>
             <Form.Group className="mb-3">
               <Form.Control
@@ -70,6 +70,7 @@ function Login({ onLogin }) {
                 placeholder="Password"
               />
             </Form.Group>
+
             <Button className="mb-0" variant="dark" type="submit">
               Login
             </Button>

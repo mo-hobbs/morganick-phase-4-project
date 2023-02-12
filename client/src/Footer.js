@@ -10,12 +10,15 @@ function Footer() {
         <Col>
           <Row>
             <Navbar.Brand href="/">
-              <Image src={trebexia_icon}></Image>
+              <a  href="https://github.com/OneShepForward/trebexia"  target="_blank" rel="noreferrer">
+
+              <Image src={trebexia_icon} ></Image>
+              </a>
             </Navbar.Brand>
           </Row>
           <Row>
             <p style={{ "color": "white" }} >
-              <small><a className="white-link" href="https://github.com/OneShepForward/trebexia" style={{ "textDecoration": "none" }}>© 2023 Morganick Productions</a></small>
+              <small><a className="white-link" href="https://github.com/OneShepForward/trebexia" target="_blank" rel="noreferrer" style={{ "textDecoration": "none" }}>© 2023 Morganick Productions</a></small>
             </p>
           </Row>
         </Col>
