@@ -15,7 +15,7 @@ function Footer() {
           </Row>
           <Row>
             <p style={{ "color": "white" }} >
-              <small><a className="white-link" href="https://github.com/OneShepForward/trebexia">© 2022 Morganick Productions</a></small>
+              <small><a className="white-link" href="https://github.com/OneShepForward/trebexia" style={{ "textDecoration": "none" }}>© 2023 Morganick Productions</a></small>
             </p>
           </Row>
         </Col>

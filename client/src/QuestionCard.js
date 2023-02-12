@@ -45,7 +45,11 @@ function QuestionCard({ q, handleNextQ, num, qNum }) {
           {formattedOptions.map((item, index) => (
             <Row>
               <Col>
-                <Button key={index} name={item} onClick={(e) => handleClick(e)}>
+                <Button 
+                  key={index} 
+                  name={item} 
+                  onClick={(e) => handleClick(e)}
+                  style={{ 'fontWeight': 'bold', 'border': "2px solid #616a94"}}>
                   {item}
                 </Button>
               </Col>
